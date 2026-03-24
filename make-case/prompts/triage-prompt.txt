@@ -10,3 +10,25 @@ Return valid JSON only.
   "missing_information": [],
   "recommended_next_step": ""
 }
+
+Classification rules:
+- urgent: operational blocker, deadline today/tomorrow, high business impact, or wording such as blocked / cannot access / urgent / critical
+- incomplete: key information is missing, such as current process, desired outcome, owner, or deadline
+- standard: complete and non-urgent request
+
+Keep the output concise.
+Do not return explanations outside JSON.
+Return raw JSON only.
+Do not wrap the response in markdown.
+Do not use ```json fences.
+
+Input:
+Requester Name: {{Requester Name}}
+Requester Email: {{Requester Email}}
+Team: {{Team}}
+Request Title: {{Request Title}}
+Request Description: {{Request Description}}
+Current Tool / Process: {{Current Tool / Process}}
+Desired Outcome: {{Desired Outcome}}
+Needed By: {{Needed By}}
+Business Impact: {{Business Impact}}
