@@ -134,7 +134,7 @@ This workflow helps:
 
 ### 5. Example email output
 
-![Standard email](../docs/screenshots/make/07-email-standard.png)
+![Standard email](../docs/screenshots/make/07-email-incomplete.png)
 
 ### 6. Queue outputs
 
