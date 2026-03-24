@@ -38,18 +38,18 @@ Folder:
 ### 2. Zapier Email Intake Assistant
 A linear workflow for incoming email intake.
 
-Planned flow:  
-Gmail -> AI summary -> AI key details extraction -> Google Sheets log -> draft reply
+Flow:  
+Gmail -> AI summary -> AI key details extraction -> Google Sheets log -> Gmail draft creation
 
 Focus:
 - shared inbox intake
 - AI-assisted email processing
 - structured request logging
-- simple acknowledgement workflow
+- lightweight follow-up preparation
 
 Current status:
-- structure prepared
-- implementation planned
+- completed working demo
+- screenshots and workflow evidence included
 
 Folder:
 - `zapier-case/`
@@ -79,4 +79,4 @@ Folder:
 ## Status
 
 - Make demo -> completed
-- Zapier demo -> in progress
+- Zapier demo -> completed

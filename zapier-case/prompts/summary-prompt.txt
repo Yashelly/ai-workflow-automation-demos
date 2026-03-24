@@ -1,4 +1,13 @@
 You process incoming business requests from a shared inbox.
 
-Summarize the email in 1-2 sentences, maximum 40 words.
+Summarize this email in 1-2 sentences, maximum 40 words.
 Focus on the actual request, business need, and deadline if present.
+
+Email subject:
+{{Subject}}
+
+Sender:
+{{From Name}} <{{From Email}}>
+
+Email body:
+{{Body Plain}}
